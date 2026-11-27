@@ -1,0 +1,31 @@
+
+.wallet-balance-container {
+  background: linear-gradient(135deg, #0f766e, #115e59, #164e63);
+  color: #ffffff;
+  padding: 35px 25px;
+  border: 1px solid #2dd4bf;
+  border-radius: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 30px rgba(20, 184, 166, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wallet-balance-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(20, 184, 166, 0.25);
+}
+
+.wallet-balance-heading {
+  font-size: 21px;
+  font-weight: 600;
+  color: #ccfbf1;
+  margin-bottom: 12px;
+}
+
+.wallet-balance-amount {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 1px;
+}

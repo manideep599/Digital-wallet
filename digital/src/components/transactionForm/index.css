@@ -1,0 +1,75 @@
+
+.transaction-form-container {
+  background: #172438;
+  padding: 28px;
+  border: 1px solid #334155;
+  border-radius: 18px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.transaction-form-heading {
+  text-align: center;
+  color: #5eead4;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.transaction-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.transaction-form-container label {
+  font-weight: 600;
+  color: #cbd5e1;
+  font-size: 15px;
+}
+
+.transaction-form-container input,
+.transaction-form-container select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #475569;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #0f1a2b;
+  color: #f8fafc;
+  transition: 0.3s ease;
+}
+
+.transaction-form-container input::placeholder {
+  color: #64748b;
+}
+
+.transaction-form-container input:focus,
+.transaction-form-container select:focus {
+  outline: none;
+  border-color: #2dd4bf;
+  box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.12);
+}
+
+.transaction-form-container button {
+  background: linear-gradient(135deg, #0d9488, #14b8a6);
+  color: #ffffff;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 12px;
+  transition: 0.3s ease;
+}
+
+.transaction-form-container button:hover {
+  background: linear-gradient(135deg, #0f766e, #0d9488);
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(20, 184, 166, 0.2);
+}
+
+.transaction-form-container button:active {
+  transform: scale(0.98);
+}
